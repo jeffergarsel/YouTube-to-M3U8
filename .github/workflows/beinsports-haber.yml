@@ -49,6 +49,8 @@ jobs:
           git add -A
           ls -la 
           
+permissions:
+  contents: write
       - name: commit & push
         run: |
           git commit -m "Link updated"
